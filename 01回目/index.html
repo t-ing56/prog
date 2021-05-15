@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+
+<div class="view1">
+  <h1>キャラクター選択</h1>
+  <div class = "character_wrapper"> 
+    <img id="character_lufy" class="character_select character_img" src="img/ルフィ/character.jpeg" alt="ルフィ">
+    <img id="character_naruto" class="character_select character_img" src="img/ナルト/character.jpeg" alt="ナルト">
+    <img id="character_tanjiro" class="character_select character_img" src="img/炭治郎/character.jpeg" alt="炭治郎">
+    <img  id="character_eren" class="character_select character_img" src="img/エレン/character.jpeg" alt="エレン ">
+    <img  id="character_ichigo" class="character_select character_img" src="img/一護/character.jpeg" alt="一護">
+    <img  id="character_sinn" class="character_select character_img" src="img/信/character.jpeg" alt="信">
+  </div>
+</div>
+
+<div id='view2'>
+  <div class="chara_select_box">
+    <div class="vs_wrapper" id="my_character">
+      <p class="side_neme">Player</p>
+      <div id="myhand" class="skil-list">
+        <div id='m_gu-' class='hand_wrapper'>
+          <img class='hand_img' src='img/ジャンケン/グー.png' alt='1'>
+        </div>  
+        <div id='m_cyoki' class='hand_wrapper'>
+          <img class='hand_img' src='img/ジャンケン/チョキ.png' alt='1'>
+        </div>
+        <div id='m_pa-' class='hand_wrapper'>
+          <img class='hand_img' src='img/ジャンケン/パー.png' alt='1'>
+        </div>
+      </div>
+      <p id = "my"></p>      
+    </div>
+
+  <h3 class="VS">VS</h3>
+
+    <div class="vs_wrapper" id="enemy_character">
+      <p class= "side_neme">Enemy</p>
+      <div id="enemyhand" class="skil-list">
+        <div id='e_gu-' class='hand_wrapper'>
+          <img class='hand_img' src='img/ジャンケン/グー.png' alt='1'>
+        </div>    
+        <div id='e_cyoki' class='hand_wrapper'>
+          <img class='hand_img' src='img/ジャンケン/チョキ.png' alt='1'>
+        </div>
+        <div id='e_pa-' class='hand_wrapper'>
+          <img class='hand_img' src='img/ジャンケン/パー.png' alt='1'>
+        </div>  
+      </div>
+      <p id = "enemy"></p>      
+    </div>
+  </div>
+</div> 
+<div id='view3'>
+  <p id= "result">result</p>
+</div>
+
+<div>
+</div>
+
+  <!-- js/test.jsの読み込みを行う -->
+  <script src='js/test.js'>
+
+  </script>
+</body>
+</html>
+
+
+
