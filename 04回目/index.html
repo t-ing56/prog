@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <title>日本列島ダーツの旅</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <body>
+    <h3>週末どこ行こう<br>日本列島ダーツの旅</h3>
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <img id="button1" src="imgs/darts.png" alt="">
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key= <!-- キー --> &callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src='js.js'> </script>
+</body>
+</html>
